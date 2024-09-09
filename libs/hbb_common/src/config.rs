@@ -2067,7 +2067,7 @@ pub fn is_incoming_only() -> bool {
        // .unwrap()
         //.get("conn-type")
         //.map_or(false, |x| x == ("incoming"))
-        true;
+        return true;
 }
 
 #[inline]
